@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+
+        <title>Dope Prototype</title>
+
+        <link rel="stylesheet" type="text/css" href="css/layout.css"> 
+
+        <script src="p5js/p5.min.js"></script>
+
+        <script src="p5js/addons/addons/p5.dom.min.js"></script>
+
+        <script src="p5js/addons/p5.sound.min.js"></script>
+
+        <script type="text/javascript" src="js/script.js"></script>
+
+       
+
+    </head>
+
+    <body>
+
+           
+
+    </body>
+
+</html>
