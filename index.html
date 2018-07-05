@@ -24,15 +24,38 @@
 <head></head>
 
 <body>
+    <table class="blueTable">
 <form name=form1>
-<label>Miles Driven:
-<input type="text" id="Miles" name="Miles" class="input"></label>
-<label>Vehicle MPG:
-<input type="text" id="mpg" name="mpg" class="input"></label>
-<label>Answer 
-<input id="answer" type="text" name="answer" class="input"></label>
-<br>
-<input type="button" value="submit" onclick="ppG()" />
-</form>
+    <tr>
+    <th> Miles Driven
+     </th>  
+        <th>
+        Vehicle MPG</th>
+        <th>
+        CO2 Produced</th>
+    </tr>
+   <tr>
+       <td>
+<label>
+<input type="text" id="Miles" name="Miles" class="input">mi</label>
+    </td>
+       <td>
+<label>
+<input type="text" id="mpg" name="mpg" class="input">mpg</label>
+           </td>
+       <td>
+<label>
+<input id="answer" type="text" name="answer" class="input">lbs of CO2</label>
+           </td></tr>
+<tr>
+    <td colspan="3" style="border:0; color:transparent">
+    <input type="button" value="submit" onclick="ppG()"/>
+    </td>
+ <tr>      
+        </form>
+    </table>
+    <h1>How It Works</h1>
+    <div>The purpose of our function is to inform commuters of how much CO2 they produce, given their miles per gallon and distance traveled. This allows them to be aware of the waste being causewd and work to reduce it.
+    The function works by taking the distance traveled and dividing it by miles per gallon. This result is then multipled by 20 lbs, the approximate of amount of CO2 gas produced per gallon. </div>
 </body>
 </html>
